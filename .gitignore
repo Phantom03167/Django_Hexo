@@ -567,3 +567,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+.blog/migrations/0*.py
