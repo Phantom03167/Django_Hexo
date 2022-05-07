@@ -4,6 +4,10 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 .idea
+.idea/*
+
+blog/migrations/*
+!blog/migrations/__init__.py
 
 # User-specific stuff
 .idea/**/workspace.xml
