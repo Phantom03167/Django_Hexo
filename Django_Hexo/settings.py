@@ -66,6 +66,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'blog.views.global_setting',
             ],
         },
     },
@@ -130,3 +131,24 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# 网站的基本信息配置
+SITE_NAME = '国光'  # 站点名称
+SITE_DESCRIPTION = '国光'  # 站点描述
+SITE_KEYWORDS = '国光,信息安全,Web安全,极客'  # 站点关键词
+SITE_TITLE = '信息安全学习记录'  # 博客标题
+SITE_TYPE_CHINESE = '宁静致远'  # 打字效果 中文内容
+SITE_TYPE_ENGLISH = 'The quieter you become, the more you are able to hear'  # 打字效果 英文内容
+SITE_MAIL = 'admin@sqlsec.com'  # 我的邮箱
+SITE_ICP = '苏ICP备19074591号'  # 网站备案号
+SITE_ICP_URL = 'http://beian.miit.gov.cn'  # 备案号超链接地址
+
+# Simple Ui 相关设置
+# SIMPLEUI_LOGIN_PARTICLES = False
+# SIMPLEUI_ANALYSIS = False
+# SIMPLEUI_STATIC_OFFLINE = True
+# SIMPLEUI_LOADING = False
+# SIMPLEUI_LOGO = 'https://image.3001.net/images/20191031/15724874583730.png'
+
+# 后台MarkDown编辑器配置
+# X_FRAME_OPTIONS = 'SAMEORIGIN'
